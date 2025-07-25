@@ -27,6 +27,16 @@
 .gap{
     margin-bottom: 50px;
 }
+.text-dec-1{
+    text-decoration: none;
+    color:#252432 ;
+    font-weight: bold;
+}
+.text-dec-2{
+    text-decoration: none;
+    color: #8987A1 ;
+    font-weight: 600;
+}
 .width{
     max-width: 1440px;
     margin: 0 auto;
@@ -143,4 +153,95 @@
  .box-3{
     background-image: url(../assets/deal-zabo.png);
  }
+ /* subscribe section */
+ .subscribe-section {
+        background-image: url(../assets/news-letter-bg.png);
+        padding: 80px 20px;
+        text-align: center;
+        color: white;
+        /* max-width: 1140px; */
+        margin: 0 auto;
+}
+
+.subscribe-overlay {
+     padding: 40px 20px;
+     margin: 0 auto;
+    border-radius: 20px;
+}
+
+.subscribe-section h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.subscribe-form input[type="email"] {
+  padding: 12px 25px;
+  font-size: 16px;
+  border: none;
+  width: 80%;
+  max-width: 600px;
+}
+
+.subscribe-form button {
+    font-size: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.subscribe-form button:hover {
+  background-color: #e6451c;
+}
  
+ 
+  /* footer part */
+ .footer-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1440px;
+     background-color: #FFFFFF;
+    padding: 40px 20px;
+    
+    gap: 150px;
+
+}
+.footer-left{
+    flex: 1;
+    min-width: 258px;
+    margin-bottom: 10px;
+}
+.footer-center, .footer-right{
+    flex: 1;
+    min-width: 258px;
+}
+.footer-center ul, .footer-right ul{
+    list-style: none;
+    padding: 0;
+}
+.footer-center li, .footer-right li{
+    margin-bottom: 10px;
+}
+.footer-center a, .footer-right a{
+    color:#8987A1 ;
+    text-decoration: none;
+
+}
+.social-part{
+    margin-top: 30px;
+    text-align: center;
+}
+.social-part a{
+    margin: 0 10px;
+    display: inline-block;
+}
+.social-part img{
+    width: 25px;
+    height: 25px;
+}
