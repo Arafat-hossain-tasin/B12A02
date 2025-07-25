@@ -24,8 +24,17 @@
 .color-3{
     color: #E95A08;
 }
-.text-dec{
-    text-decoration: none;
+.gap{
+    gap: 20px;
+}
+
+/* .text-dec{
+    text-decoration: none; */
+.btn-primary{
+    color:white ;
+    background-color:#E95A08 ;
+    padding: 19px 80px;
+    border: none;
 }
 /* nav */
 .nav-area{
@@ -53,4 +62,61 @@
     margin-top: 107px;
     align-items: end;
     max-width: 1440px;
+    
+    
 }
+.text-align{
+    text-align: center;
+}
+.header-1{
+    font-weight: 700;
+    font-size: 60px;
+}
+/* body */
+.align-body{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.body-heading{
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 133px;
+   margin-bottom: 50px;
+}
+.flower-items{
+    /* max-width:1140px ; */
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+    text-align: center;
+}
+.body-2{
+    max-width: 1440px;
+    max-height: 597px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    margin-top: 212px;
+   
+}
+.text-2{
+    margin-left: -150px;
+   
+}
+.heading-2{
+    font-weight: bold;
+    font-size: 50px;
+}
+
+/* #img-store{
+    height: 592px;
+    width: 560;
+} */
+ .heading-3{
+    max-width: 1440px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 134px;
+ }
+ /* shop */
+ 
