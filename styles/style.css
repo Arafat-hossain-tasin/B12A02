@@ -27,6 +27,9 @@
 .gap{
     margin-bottom: 50px;
 }
+.display-blk{
+  display: flexbox;
+}
 .text-dec-1{
     text-decoration: none;
     color:#252432 ;
@@ -312,4 +315,120 @@
 .social-part img{
     width: 25px;
     height: 25px;
+}
+/* reponsive part */
+@media screen and (max-width:576px){
+     .nav-area{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 10px;
+    }
+  .display-blk{
+       display: none;
+  } 
+  .link-btn{
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+    margin-left: 200px;
+    margin-top: -70px;
+  }
+.first-items{
+  flex-direction: column-reverse;
+  align-items: flex-start;
+  text-align: left;
+  margin: 25px;
+  
+}  
+  .img-1{
+    width: 400px;
+    height: 245px;
+  }
+  .header-1{
+    font-size: 30px;
+  }
+  .flower-items{
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    padding: 0 -10px;
+  }
+  .body-2{
+    
+    flex-direction: column;
+    align-items: center;
+  }
+  #img-store{
+    width: 100%;
+    height: auto;
+  }
+  #badge{
+    display: none;
+  }
+  .text-2{
+    margin-left: o;
+    text-align: left;
+  }
+  .heading-2{
+    font-size: 32px;
+  }
+  .img-container{
+    flex-direction: column;
+    align-items: center;
+    padding: 0 -10px;
+  }
+  .heading-3{
+    font-size: 30px;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: center;
+    /* margin-bottom: -600px; */
+  }
+  .left-column-img{
+    width: 100%;
+  }
+  .cart{
+    width: 100%;
+    height: auto;
+     /* object-fit: cover; */
+  }
+  .right-cart{
+    width: 100%;
+    height: auto;
+    /* object-fit: cover; */
+  }
+ .cart img,.right-cart img{
+  object-fit: cover;
+ }
+ .main-container{
+  margin: 0 auto;
+  padding: 0 -15px;
+ }
+ .subscribe-section h1{
+  font: 28px;
+ }
+ .subscribe-form{
+  flex-direction: column;
+  /* gap: 12px; */
+ }
+ .btn-primary{
+  width: 100%;
+  padding: 20px 0;
+ }
+ .subscribe-form input{
+  width: 100%;
+ }
+ .footer-container{
+  flex-direction: column;
+  gap: 35px;
+  padding: 25px 20px;
+}
+.footer-center ul, .footer-right ul{
+  text-align: left;
+  padding-left: -10px;
+}
+.social-part{
+  margin-top: 20px;
+  text-align: left;
+}
 }
